@@ -211,6 +211,27 @@
           </div>
         </section>
 
+           <!--YT Videos -->
+           <section
+           style="
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+             margin: 0;
+           "
+         >
+           <iframe
+             width="1200"
+             height="615"
+             src="https://www.youtube.com/embed/wGAZ76cuUQw"
+             frameborder="0"
+             allowfullscreen
+             style="max-width: 80%; max-height: 80%"
+           ></iframe>
+         </section>
+ 
+
         <!-- 
         - #ABOUT
       -->
@@ -220,7 +241,7 @@
             <figure class="about-banner">
               <div class="img-holder" style="--width: 520; --height: 370">
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/hero.jpg"
                   width="520"
                   height="370"
                   loading="lazy"
@@ -275,6 +296,7 @@
                   max-width: 80%;
                   overflow: hidden;
                   transition: max-height 0.5s;
+                  max-height: 150px;
                 "
               >
                 We are registered as SUPERVISION EDUCARE PRIVATE LIMITED under
@@ -283,20 +305,32 @@
                 with certificate number DIPP54985. Cograd is a groundbreaking
                 startup by a team of IITians/NITians that aims to empower
                 students with new gen technology and skills. With a focus on
-                robotics and new education techniques, <br >Cograd is
-                making a significant positive impact by providing access to
-                quality education in various schools and colleges across the
-                country.<br >
+                robotics and new education techniques, <br />Cograd is making a
+                significant positive impact by providing access to quality
+                education in various schools and colleges across the country.<br />
                 The growth and enhancement of science and technology in India
                 have been key government initiatives, and Cograd aligns
                 perfectly with these goals. By introducing new gen technologies
                 like coding and robotics into the curriculum.
               </p>
 
-              <button class="show-more-button" onclick="toggleText()" style="margin-top: 20px; margin-bottom: 30px; padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+              <button
+                id="showMoreButton"
+                class="show-more-button"
+                onclick="toggleText()"
+                style="
+                  margin-top: 20px;
+                  margin-bottom: 30px;
+                  padding: 10px 20px;
+                  background-color: #007bff;
+                  color: #fff;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                "
+              >
                 Load More
-            </button>
-            
+              </button>
 
               <h1>Why Us?</h1>
               <ul class="about-list">
@@ -371,11 +405,13 @@
         <section class="section category" aria-label="category">
           <div class="container">
             <!-- About DreamAdvance -->
-            <p class="section-subtitle" style="font-size:5vh;">About DreamAdvance</p>
+            <p class="section-subtitle" style="font-size: 5vh">
+              About DreamAdvance
+            </p>
 
             <h2 class="h2 section-title"></h2>
 
-            <p class="section-text" >
+            <p class="section-text">
               Dream Advance, a series of workshops on emerging technologies like
               Drone Tech, Aero-modeling, Artificial Intelligence, Robotics,
               SpaceTech, Smart Agriculture, 3D Printing, IOT, and more! These
@@ -796,7 +832,7 @@
             <figure class="about-banner">
               <div class="img-holder" style="--width: 520; --height: 370">
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/fields/jpg_20220604_093807_0000.jpg"
                   width="520"
                   height="370"
                   loading="lazy"
@@ -823,7 +859,7 @@
               </p>
 
               <img
-                src="./assets/images/about-shape-4.svg"
+                src="./assets/images/fields/jpg_20220604_093807_0000.jpg"
                 width="100"
                 height="100"
                 loading="lazy"
@@ -838,7 +874,7 @@
             <figure class="about-banner">
               <div class="img-holder" style="--width: 520; --height: 370">
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/fields/IMG_20190602_105223.jpg"
                   width="520"
                   height="370"
                   loading="lazy"
@@ -867,7 +903,7 @@
               </p>
 
               <img
-                src="./assets/images/about-shape-4.svg"
+                src="./assets/images/fields/IMG_20190602_105223.jpg"
                 width="100"
                 height="100"
                 loading="lazy"
@@ -882,7 +918,7 @@
             <figure class="about-banner">
               <div class="img-holder" style="--width: 520; --height: 370">
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/fields/IIT....jpg"
                   width="520"
                   height="370"
                   loading="lazy"
@@ -911,7 +947,7 @@
               </p>
 
               <img
-                src="./assets/images/about-shape-4.svg"
+                src="./assets/images/about-shape-3.svg"
                 width="100"
                 height="100"
                 loading="lazy"
@@ -926,7 +962,7 @@
             <figure class="about-banner">
               <div class="img-holder" style="--width: 520; --height: 370">
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/fields/jean-philippe-delberghe-YwSf1o8s79c-unsplash.jpg"
                   width="520"
                   height="370"
                   loading="lazy"
@@ -970,43 +1006,466 @@
         - #BLOG
       -->
 
-        <!--YT Videos -->
+     
+        <!-- Sponsers -->
+
         <section
           style="
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            flex-wrap: wrap;
+            background-image: linear-gradient(
+              to bottom right,
+              #03517e,
+              #7b7dfe
+            );
+            min-height: 60vh;
             margin: 0;
           "
         >
-          <iframe
-            width="800"
-            height="415"
-            src="https://www.youtube.com/embed/wGAZ76cuUQw"
-            frameborder="0"
-            allowfullscreen
-            style="max-width: 80%; max-height: 80%"
-          ></iframe>
-        </section>
-        
-        <!-- Sponsers -->
+          <h2
+            style="color: #fff; text-align: center; width: 100%; font-size: 5vw"
+          >
+            Sponsors
+          </h2>
 
-        <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #03517e, #7b7dfe); min-height: 60vh; margin: 0;">
-
-          <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Sponsors</h2>
-      
           <!-- Sponsor 1 -->
-          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> </div>
-      
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/1000182091_92d32132e929493fa82483d580de8e35-7_29_2023, 9_07_57 AM.png"
+              alt="Sponsor 1"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 1
+              </p>
+            </div>
+          </div>
+
           <!-- Sponsor 2 -->
-          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></div>
-      
-          <!-- Sponsor 3 -->
-          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></div>
-      
-      </section>
-      
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/1656927404364.jpg"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+
+          <!-- Sponsor 3-->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/1677936221803.jpg"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+
+          <!-- Sponsor 4 -->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/558149_47d63180e690f12db75936748863955bd70d3aaf_programming-hero_l.jpg"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+          <!-- Sponsor 5-->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/cisco-1.png"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+          <!-- Sponsor 6-->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/download (1).png"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+          <!-- Sponsor 7-->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/ngoicfdr.png"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+          <!-- Sponsor 8 -->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/download (2).png"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+          <!-- Sponsor 9 -->
+          <div
+            class="sponsor"
+            style="
+              width: 200px;
+              height: 150px;
+              margin: 20px;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              position: relative;
+              transition: transform 0.3s ease;
+            "
+          >
+            <img
+              src="./assets/images/sponsers/pp.jpg"
+              alt="Sponsor 2"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              class="overlay"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+              "
+            >
+              <p
+                style="
+                  color: #fff;
+                  text-align: center;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                "
+              >
+                Sponsor 2
+              </p>
+            </div>
+          </div>
+        </section>
 
         <!-- News Section -->
 
@@ -1019,17 +1478,36 @@
           <div class="container">
             <p class="section-subtitle">Latest Articles</p>
 
-            <h2 class="h2 section-title">Get News With Cograd</h2>
+            <h2 class="h2 section-title">Cograd in News</h2>
 
-            <!-- <ul class="grid-list">
+            <!-- <ul class="grid-list" style="list-style:space-between;">
+ 
+              <li style="margin-left: 30px;">
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 400; --height: 370"
+                  >
+                    <img
+                      src="./assets/images/news1.jpg"
+                      width="370"
+                      height="370"
+                      loading="lazy"
+                      alt="Become A Better Blogger: Content Planning"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </li>
+
               <li>
                 <div class="blog-card">
                   <figure
                     class="card-banner img-holder has-after"
-                    style="--width: 370; --height: 370"
+                    style="--width: 400; --height: 370"
                   >
                     <img
-                      src="./assets/images/blog-1.jpg"
+                      src="./assets/images/news2.png"
                       width="370"
                       height="370"
                       loading="lazy"
@@ -1038,111 +1516,13 @@
                     />
                   </figure>
 
-                  <div class="card-content">
-                    <a href="#" class="card-btn" aria-label="read more">
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-
-                    <a href="#" class="card-subtitle">Online</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Become A Better Blogger: Content Planning</a
-                      >
-                    </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="calendar-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">Oct 10, 2021</span>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="chatbubbles-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">Com 09</span>
-                      </li>
-                    </ul>
-
-                    <p class="card-text">
-                      Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-                    </p>
-                  </div>
+                 
                 </div>
               </li>
 
               <li>
                 <div class="blog-card">
-                  <figure
-                    class="card-banner img-holder has-after"
-                    style="--width: 370; --height: 370"
-                  >
-                    <img
-                      src="./assets/images/blog-2.jpg"
-                      width="370"
-                      height="370"
-                      loading="lazy"
-                      alt="Become A Better Blogger: Content Planning"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <a href="#" class="card-btn" aria-label="read more">
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-
-                    <a href="#" class="card-subtitle">Online</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Become A Better Blogger: Content Planning</a
-                      >
-                    </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="calendar-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">Oct 10, 2021</span>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="chatbubbles-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">Com 09</span>
-                      </li>
-                    </ul>
-
-                    <p class="card-text">
-                      Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure
+                  <!-- <figure
                     class="card-banner img-holder has-after"
                     style="--width: 370; --height: 370"
                   >
@@ -1154,9 +1534,9 @@
                       alt="Become A Better Blogger: Content Planning"
                       class="img-cover"
                     />
-                  </figure>
+                  </figure> -->
 
-                  <div class="card-content">
+                  <!-- <div class="card-content">
                     <a href="#" class="card-btn" aria-label="read more">
                       <ion-icon
                         name="arrow-forward-outline"
@@ -1195,76 +1575,249 @@
                     <p class="card-text">
                       Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
                     </p>
-                  </div>
+                  </div> 
                 </div>
               </li>
             </ul> -->
-
-            <img
+             
+            <!-- <img
               src="./assets/images/blog-shape.png"
               width="186"
               height="186"
               loading="lazy"
               alt=""
               class="shape blog-shape"
-            />
+            /> -->
+            <section style="   display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            min-height: 60vh;
+            margin: 0;">
+             <div
+             class="award"
+             style="
+               width: 400px;
+               margin: 20px;
+               padding: 20px;
+               background-color: #fff;
+               border-radius: 10px;
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+             "
+           >
+             <img
+             src="./assets/images/news1.jpg"
+               alt="Best Innovation Award"
+               style="width: 100%; border-radius: 10px"
+             />
+             <h3 style="color: #333; font-size: 20px; margin-bottom: 10px">
+               <!-- Best Innovation Award -->
+             </h3>
+             <!-- <p style="color: #777; font-size: 16px;">Awarded for outstanding innovation in the technology sector.</p> -->
+           </div>
+           <div
+           class="award"
+           style="
+             width: 400px;
+             margin: 20px;
+             padding: 20px;
+             background-color: #fff;
+             border-radius: 10px;
+             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           "
+         >
+           <img
+           src="./assets/images/news2.png"
+             alt="Best Innovation Award"
+             style="width: 100%; border-radius: 10px"
+           />
+           <h3 style="color: #333; font-size: 20px; margin-bottom: 10px">
+             <!-- Best Innovation Award -->
+           </h3>
+           <!-- <p style="color: #777; font-size: 16px;">Awarded for outstanding innovation in the technology sector.</p> -->
+         </div></section>
+           
           </div>
         </section>
       </article>
     </main>
 
     <!-- Awards Section -->
-    <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #84fab0, #8fd3f4); min-height: 60vh; margin: 0;">
+    <section
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom right, #84fab0, #8fd3f4);
+        min-height: 60vh;
+        margin: 0;
+      "
+    >
+      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw">
+        Awards Received
+      </h2>
 
-      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Awards Received</h2>
-  
       <!-- Award 1 -->
-      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Best Innovation Award</h3>
-          <p style="color: #777; font-size: 16px;">Awarded for outstanding innovation in technology sector.</p>
+      <div
+        class="award"
+        style="
+          width: 400px;
+          margin: 20px;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <img
+          src="./assets/images/awards1..jpg"
+          alt="Best Innovation Award"
+          style="width: 100%; border-radius: 10px"
+        />
+        <h3 style="color: #333; font-size: 20px; margin-bottom: 10px">
+          Best Innovation Award
+        </h3>
+        <!-- <p style="color: #777; font-size: 16px;">Awarded for outstanding innovation in the technology sector.</p> -->
       </div>
-  
+
       <!-- Award 2 -->
-      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Community Impact Award</h3>
-          <p style="color: #777; font-size: 16px;">Recognized for significant positive impact on local community.</p>
+      <div
+        class="award"
+        style="
+          width: 400px;
+          margin: 20px;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <!-- Image for Award 2 can be added here -->
+        <img
+          src="./assets/images/awards2.jpg"
+          alt="Best Innovation Award"
+          style="width: 100%; border-radius: 10px"
+        />
+        <h3 style="color: #333; font-size: 20px; margin-bottom: 10px">
+          Bharatiya Excellence Award
+        </h3>
+        <!-- <p style="color: #777; font-size: 16px;">Recognized for significant positive impact on the local community.</p> -->
       </div>
-  
+
       <!-- Award 3 -->
-      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Excellence in Customer Service</h3>
-          <p style="color: #777; font-size: 16px;">Awarded for exceptional customer service and satisfaction.</p>
-      </div>
-  
-  </section>
-  
+      <!-- <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> -->
+      <!-- Image for Award 3 can be added here -->
+      <!-- <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Excellence in Customer Service</h3> -->
+      <!-- <p style="color: #777; font-size: 16px;">Awarded for exceptional customer service and satisfaction.</p> -->
+      <!-- </div> -->
+    </section>
 
     <!-- Testimonials -->
 
-    <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #8e2de2, #4a00e0); min-height: 60vh; margin: 0;">
+    <section
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+        min-height: 60vh;
+        margin: 0;
+      "
+    >
+      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw">
+        Testimonials
+      </h2>
 
-      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Testimonials</h2>
-  
       <!-- Testimonial 1 -->
-      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"I had an amazing experience with this company. The team was professional and delivered high-quality results."</p>
-          <p class="author" style="font-style: italic; color: #777;">John Doe</p>
+      <div
+        class="testimonial"
+        style="
+          width: 300px;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 10px;
+          text-align: center;
+          background-color: rgba(255, 255, 255, 0.9);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <p
+          style="
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+          "
+        >
+          "I had an amazing experience with this company. The team was
+          professional and delivered high-quality results."
+        </p>
+        <p class="author" style="font-style: italic; color: #777">
+          - Ayush Singh
+        </p>
       </div>
-  
+
       <!-- Testimonial 2 -->
-      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"Highly recommend! Their service exceeded my expectations. Will definitely work with them again."</p>
-          <p class="author" style="font-style: italic; color: #777;">Jane Smith</p>
+      <div
+        class="testimonial"
+        style="
+          width: 300px;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 10px;
+          text-align: center;
+          background-color: rgba(255, 255, 255, 0.9);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <p
+          style="
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+          "
+        >
+          "Highly recommend! Their service exceeded my expectations. Will
+          definitely work with them again."
+        </p>
+        <p class="author" style="font-style: italic; color: #777">
+          - Harshit Singh
+        </p>
       </div>
-  
+
       <!-- Testimonial 3 -->
-      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"Outstanding work! They were responsive to my needs and provided excellent support throughout the project."</p>
-          <p class="author" style="font-style: italic; color: #777;">David Johnson</p>
+      <div
+        class="testimonial"
+        style="
+          width: 300px;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 10px;
+          text-align: center;
+          background-color: rgba(255, 255, 255, 0.9);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <p
+          style="
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+          "
+        >
+          "Outstanding work! They were responsive to my needs and provided
+          excellent support throughout the project."
+        </p>
+        <p class="author" style="font-style: italic; color: #777">
+          - Gautam Kumar
+        </p>
       </div>
-  
-  </section>
-  
+    </section>
+
     <!-- 
     - #FOOTER
   -->
@@ -1480,10 +2033,17 @@
     <script>
       function toggleText() {
         var sectionText = document.getElementById("sectionText");
-        if (sectionText.style.maxHeight === "150px") {
-          sectionText.style.maxHeight = "none";
-        } else {
+        var showMoreButton = document.getElementById("showMoreButton");
+
+        if (
+          sectionText.style.maxHeight === "none" ||
+          sectionText.style.maxHeight === ""
+        ) {
           sectionText.style.maxHeight = "150px";
+          showMoreButton.textContent = "Load More";
+        } else {
+          sectionText.style.maxHeight = "none";
+          showMoreButton.textContent = "Load Less";
         }
       }
     </script>
