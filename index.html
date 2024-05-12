@@ -267,27 +267,37 @@
                 Skill Development -->
               </h2>
 
-              <p class="section-text">
+              <p
+                id="sectionText"
+                class="section-text"
+                style="
+                  text-align: center;
+                  max-width: 80%;
+                  overflow: hidden;
+                  transition: max-height 0.5s;
+                "
+              >
                 We are registered as SUPERVISION EDUCARE PRIVATE LIMITED under
                 companies act 2013 with CIN number U80904UP2019PTC113017 in 2019
                 with PAN ABBCS5112J. We are also recognised by Startup India
                 with certificate number DIPP54985. Cograd is a groundbreaking
                 startup by a team of IITians/NITians that aims to empower
                 students with new gen technology and skills. With a focus on
-                robotics and new education techniques, <br /><br />Cograd is
+                robotics and new education techniques, <br >Cograd is
                 making a significant positive impact by providing access to
                 quality education in various schools and colleges across the
-                country.<br /><br />
+                country.<br >
                 The growth and enhancement of science and technology in India
                 have been key government initiatives, and Cograd aligns
                 perfectly with these goals. By introducing new gen technologies
-                like coding and robotics into the curriculum, Cograd empowers
-                students with essential skills for the future job market.
-                Through our programs, students are exposed to cutting-edge
-                concepts that foster creativity, critical thinking,
-                problem-solving skills, and an entrepreneurial mindset while
-                making their academic understanding better.
+                like coding and robotics into the curriculum.
               </p>
+
+              <button class="show-more-button" onclick="toggleText()" style="margin-top: 20px; margin-bottom: 30px; padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                Load More
+            </button>
+            
+
               <h1>Why Us?</h1>
               <ul class="about-list">
                 <li class="about-item">
@@ -361,11 +371,11 @@
         <section class="section category" aria-label="category">
           <div class="container">
             <!-- About DreamAdvance -->
-            <p class="section-subtitle">About DreamAdvance</p>
+            <p class="section-subtitle" style="font-size:5vh;">About DreamAdvance</p>
 
             <h2 class="h2 section-title"></h2>
 
-            <p class="section-text">
+            <p class="section-text" >
               Dream Advance, a series of workshops on emerging technologies like
               Drone Tech, Aero-modeling, Artificial Intelligence, Robotics,
               SpaceTech, Smart Agriculture, 3D Printing, IOT, and more! These
@@ -377,6 +387,9 @@
               you about Aeromodelling we are going to clear all the concepts
               related to Science and Maths as well.
             </p>
+            <!-- <button class="show-more-button" onclick="toggleText()">
+              Load More
+            </button> -->
 
             <p class="section-subtitle">Deliverables By Us</p>
 
@@ -976,6 +989,26 @@
             style="max-width: 80%; max-height: 80%"
           ></iframe>
         </section>
+        
+        <!-- Sponsers -->
+
+        <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #03517e, #7b7dfe); min-height: 60vh; margin: 0;">
+
+          <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Sponsors</h2>
+      
+          <!-- Sponsor 1 -->
+          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> </div>
+      
+          <!-- Sponsor 2 -->
+          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></div>
+      
+          <!-- Sponsor 3 -->
+          <div class="sponsor" style="width: 200px; height: 150px; margin: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></div>
+      
+      </section>
+      
+
+        <!-- News Section -->
 
         <section
           class="section blog has-bg-image"
@@ -1180,6 +1213,58 @@
       </article>
     </main>
 
+    <!-- Awards Section -->
+    <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #84fab0, #8fd3f4); min-height: 60vh; margin: 0;">
+
+      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Awards Received</h2>
+  
+      <!-- Award 1 -->
+      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Best Innovation Award</h3>
+          <p style="color: #777; font-size: 16px;">Awarded for outstanding innovation in technology sector.</p>
+      </div>
+  
+      <!-- Award 2 -->
+      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Community Impact Award</h3>
+          <p style="color: #777; font-size: 16px;">Recognized for significant positive impact on local community.</p>
+      </div>
+  
+      <!-- Award 3 -->
+      <div class="award" style="width: 300px; margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <h3 style="color: #333; font-size: 20px; margin-bottom: 10px;">Excellence in Customer Service</h3>
+          <p style="color: #777; font-size: 16px;">Awarded for exceptional customer service and satisfaction.</p>
+      </div>
+  
+  </section>
+  
+
+    <!-- Testimonials -->
+
+    <section style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-image: linear-gradient(to bottom right, #8e2de2, #4a00e0); min-height: 60vh; margin: 0;">
+
+      <h2 style="color: #fff; text-align: center; width: 100%; font-size: 5vw;">Testimonials</h2>
+  
+      <!-- Testimonial 1 -->
+      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"I had an amazing experience with this company. The team was professional and delivered high-quality results."</p>
+          <p class="author" style="font-style: italic; color: #777;">John Doe</p>
+      </div>
+  
+      <!-- Testimonial 2 -->
+      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"Highly recommend! Their service exceeded my expectations. Will definitely work with them again."</p>
+          <p class="author" style="font-style: italic; color: #777;">Jane Smith</p>
+      </div>
+  
+      <!-- Testimonial 3 -->
+      <div class="testimonial" style="width: 300px; margin: 20px; padding: 20px; border-radius: 10px; text-align: center; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <p style="color: #333; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">"Outstanding work! They were responsive to my needs and provided excellent support throughout the project."</p>
+          <p class="author" style="font-style: italic; color: #777;">David Johnson</p>
+      </div>
+  
+  </section>
+  
     <!-- 
     - #FOOTER
   -->
@@ -1392,5 +1477,15 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      function toggleText() {
+        var sectionText = document.getElementById("sectionText");
+        if (sectionText.style.maxHeight === "150px") {
+          sectionText.style.maxHeight = "none";
+        } else {
+          sectionText.style.maxHeight = "150px";
+        }
+      }
+    </script>
   </body>
 </html>
